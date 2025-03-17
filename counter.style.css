@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size:7em;
+}
+
+img{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 750px;
+    height: 600px;
+}
+
+#countLabel {
+    display: block;
+    text-align: center;
+    font-size: 9em ;
+    font-family:Helvetica;
+    color: white;
+}
+
+#btnContainer {
+    text-align: center;
+    font-size: 5em
+    
+}
+
+.buttons{
+    cursor: pointer;
+    padding: 15px 25px;
+    font-size: 40px;
+    color: black;
+    background-image: linear-gradient(to bottom right, rgba(215, 4, 215, 0.855),rgb(243, 235, 235));
+    border-radius: 10px;
+    transition: background-color 0.25s;
+    transition: box-shadow 0.5s;
+
+}
+
+.buttons:hover{
+    background-color:rgb(6, 0, 6) ;
+    box-shadow: 0 0 10px 0px rgb(242, 43, 43);
+
+}
