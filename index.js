@@ -1,8 +1,21 @@
 // Counter game!
+const noBtn = document.getElementById("noBtn");
+const yesBtn = document.getElementById("yesBtn");
+const boxRel = document.getElementById("boxRel");
 const decreaseBTN = document.getElementById("decreaseBTN");
 const BdecreaseBTN = document.getElementById("BdecreaseBTN");
 const resetBTN = document.getElementById("resetBTN");
 const countLabel = document.getElementById("countLabel");
+
+
+
+if(noBtn.checked){
+    boxRel.textContent = `Top G would be sad`;  
+}
+else if (yesBtn.checked){
+    boxRel.textContent = `Top G would be proud`;
+}
+
 
 let count = 370000000;
 
